@@ -10,7 +10,7 @@ a statistics dashboard made with plain css and html.
 
 ## Demo
 
-[Github Pages](https://dev-caspertheghost.github.io/statistics-dashboard)
+[Github Pages](https://dev-caspertheghost.github.io/css-statistic-dashboard/)
 
 ### Screenshot
 
