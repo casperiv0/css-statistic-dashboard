@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Statistic Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="nav-content">
+        <img src="/img/info-24px.svg" alt="i" />
+        <img src="/img/notifications-24px.svg" alt="notification" />
+        <img class="main-nav-icon" src="/img/icon.jpg" alt="main" />
+      </div>
+    </nav>
+
+    <nav class="tab-selector">
+      <a href="#home" class="tab-select selected-tab">Home</a>
+      <a href="#audience" class="tab-select">Audience</a>
+      <a href="#behavior" class="tab-select">Behavior</a>
+      <a href="#conversions" class="tab-select">Conversions</a>
+      <a href="#customize" class="tab-select float-right">Customize</a>
+    </nav>
+
+    <div class="main-layout">
+      <main class="main">
+
+        <!-- Row 1 -->
+        <div class="row-1">
+          <div class="box active-users">
+            <h2 class="box-title">
+              Active Users
+            </h2>
+            <h1>72</h1>
+            <div class="box-footer">
+              <a href="#referrals"
+                >View Referrals
+                <img src="/img/arrow-right.svg" alt="arrow" />
+              </a>
+            </div>
+          </div>
+          <div class="box page-views">
+            <h2 class="box-title">Page views per minute</h2>
+            <div class="graph">
+              <div style="height: 66%;"></div>
+              <div style="height: 18%;"></div>
+              <div style="height: 34%;"></div>
+              <div style="height: 75%;"></div>
+              <div style="height: 15%;"></div>
+              <div style="height: 94%;"></div>
+              <div style="height: 95%;"></div>
+              <div style="height: 17%;"></div>
+              <div style="height: 32%;"></div>
+              <div style="height: 76%;"></div>
+              <div style="height: 80%;"></div>
+              <div style="height: 89%;"></div>
+              <div style="height: 63%;"></div>
+              <div style="height: 36%;"></div>
+              <div style="height: 82%;"></div>
+              <div style="height: 10%;"></div>
+              <div style="height: 27%;"></div>
+              <div style="height: 19%;"></div>
+              <div style="height: 5%;"></div>
+              <div style="height: 59%;"></div>
+              <div style="height: 18%;"></div>
+            </div>
+            <div class="box-footer">
+              <a href="#referrals"
+                >View Referrals
+                <img src="/img/arrow-right.svg" alt="arrow" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2 - main stats -->
+        <div class="row-2">
+          <div class="stat-box">
+            <div class="stat-title">
+              <span>Users</span>
+              <span class="stat-percentage green">
+                <img src="/img/arrow-up-green.svg" alt="" />268%
+              </span>
+            </div>
+            <h1>
+              15K
+            </h1>
+          </div>
+          <div class="stat-box">
+            <div class="stat-title">
+              Sessions
+              <span class="stat-percentage green">
+                <img src="/img/arrow-up-green.svg" alt="" />268%
+              </span>
+            </div>
+            <h1>
+              17K
+            </h1>
+          </div>
+          <div class="stat-box">
+            <div class="stat-title">
+              Bounce Rate
+              <span class="stat-percentage red">
+                <img src="/img/arrow-up-red.svg" alt="" />19%
+              </span>
+            </div>
+            <h1>
+              62.57%
+            </h1>
+          </div>
+          <div class="stat-box">
+            <div class="stat-title">
+              Session Duration
+              <span class="stat-percentage red">
+                <img src="/img/arrow-down-red.svg" alt="" />29.7%
+              </span>
+            </div>
+            <h1>
+              1m 37s
+            </h1>
+          </div>
+        </div>
+
+        <!-- Row 3 - alert -->
+        <div class="row-3">
+          <div class="alert">
+            <div class="alert-title">
+              <img src="/img/alert.svg" alt="alert" />
+              <div>
+                <h2>No alerts set</h2>
+                <p>Get notified when your data drastically changes</p>
+              </div>
+            </div>
+            <button class="alert-btn">
+              Set alert
+            </button>
+          </div>
+        </div>
+
+        <!-- Row 4 - Devices -->
+        <div class="row-4">
+          <div class="box device-box">
+            <div class="box-title">Devices</div>
+            <div class="select-months">
+              <div class="select-month active">
+                May
+              </div>
+              <div class="select-month">
+                June
+              </div>
+              <div class="select-month">
+                July
+              </div>
+              <div class="select-month">
+                August
+              </div>
+            </div>
+            <div class="month-info">
+              <div class="month-info-box">
+                Desktop | 52%
+                <div class="month-bar" style="width: 62%;"></div>
+              </div>
+              <div class="month-info-box">
+                Tablet | 15%
+                <div class="month-bar" style="width: 25%;"></div>
+              </div>
+              <div class="month-info-box">
+                Mobile | 36%
+                <div class="month-bar" style="width: 46%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="box device-box">
+            <div class="box-title">References</div>
+            <div class="reference-details">
+              <div class="reference">
+                <span>Direct</span>
+                <span>24</span>
+              </div>
+              <div class="reference">
+                <span>Search</span>
+                <span>18</span>
+              </div>
+              <div class="reference">
+                <span>Github</span>
+                <span>12</span>
+              </div>
+              <div class="reference">
+                <span>Discord</span>
+                <span>8</span>
+              </div>
+              <div class="reference">
+                <span>Other</span>
+                <span>2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <aside class="side-bar">
+        <div class="side-bar-header">
+          <h3>Top Pages</h3>
+          <h3>Visits</h3>
+        </div>
+        <div class="side-bar-content">
+          <div class="side-bar-page">
+            <h4>/</h4>
+            <span>23,956</span>
+          </div>
+          <div class="side-bar-page">
+            <h4>/about</h4>
+            <span>5664</span>
+          </div>
+          <div class="side-bar-page">
+            <h4>/license</h4>
+            <span>2405</span>
+          </div>
+          <div class="side-bar-page">
+            <h4>/post/sketch-help-center-links-search-day-1120</h4>
+            <span>1203</span>
+          </div>
+          <div class="side-bar-page">
+            <h4>/post/sketch-stats-pricing-card-day-1116</h4>
+            <span>956</span>
+          </div>
+          <div class="side-bar-page">
+            <h4>/posts/sketch-dark-progress-bar-day-1112</h4>
+            <span>869</span>
+          </div>
+          <div class="side-bar-page">
+            <h4>/posts/sketch-message-ui-kit-day-5951</h4>
+            <span>654</span>
+          </div>
+          <div class="more-stats-box">
+            <div class="more-stats-header">
+              More Stats
+              <img src="/img/more-stats.svg" alt="more" />
+            </div>
+            <div class="more-stats-body">
+              <div class="more-stats">
+                More stats
+                <h1>42K</h1>
+              </div>
+              <div class="more-stats">
+                More stats
+                <h1>47.45%</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
