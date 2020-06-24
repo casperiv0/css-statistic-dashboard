@@ -26,3 +26,4 @@ a statistics dashboard made with plain css and html.
 ## What I learned
 
 - CSS Grid template area
+- Use CSS grids & flex for responsive design
