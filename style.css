@@ -262,8 +262,7 @@ nav.tab-selector {
 .graph {
   height: 40%;
   display: flex;
-  flex-direction: row-reverse;
-  transform: rotate(180deg);
+  align-items: flex-end;
 }
 
 .graph div {
@@ -272,6 +271,27 @@ nav.tab-selector {
   width: 100%;
   height: 100%;
 }
+
+/* https://twitter.com/aralroca/status/1275700185385988096 */
+.graph div:hover::before{
+  display: block;
+}
+
+.graph div:before {
+  content: attr(aria-label);
+  display:none;
+  position: absolute;
+  top: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--dark-blue);
+  width: 150px;
+  padding: 10px;
+  background-color: #f0f6f8;
+  border-radius: 5px;
+  pointer-events: none;  
+}
+
 
 /* Row 2 */
 .row-2 {

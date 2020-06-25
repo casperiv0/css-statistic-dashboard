@@ -19,6 +19,7 @@ a statistics dashboard made with plain css and html.
 ## Todos
 
 - [x] make responsive
+- [x] add tooltip
 - add javascript functionality
   - notification dropdown
   - devices month tabs
